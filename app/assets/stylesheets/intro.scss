@@ -1,0 +1,22 @@
+// Place all the styles related to the Intro controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 span {
+  text-align: center;
+  z-index: 1;
+  color: pink;
+  font: bold Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+#intro-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -999;
+}
